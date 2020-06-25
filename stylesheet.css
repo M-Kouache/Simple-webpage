@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap');
+
+/* *,*::before,*::after{
+    box-sizing: border-box;
+} */
+
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: Museo Moderno, sans-serif;
+    background: #f5f5f5;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.nav-list li a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-list li a:hover{
+
+    color: #4b0d35;
+}
+
+#more{
+    width: fit-content;
+    margin-left: 43%;
+
+}
+
+#more a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #49dcfb;
+}
+
+#more a:hover{
+    color: #939494;
+}
+
+.header h1  {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+#h1{
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.split{
+    height: 20vh;
+    margin: 10% 0;
+    background:linear-gradient(to right,#d7d2cc,#304352) ;
+}
+
+
+.main-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15% 0;
+    height: 60vh;
+    background: linear-gradient(to right,#355C7D,#6C5B7B,#C06C84) ;
+}
+
+ #par{
+    font-size: 24px;
+    padding: 0;
+    margin-left: 15px;
+}
+
+#btn{
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    background:linear-gradient(to right,#C06C84,#6C5B7B) ;
+    margin-left: 15px;
+    width: 200px;
+    height: 50px;
+}
+
+#btn:hover{
+    background:linear-gradient(to right,#DECBA4,#3E5151) ;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-about .bio{
+    margin-left: 10%;
+}
+
+.main-about .image{
+    padding: 10%;
+}
+
+.main-project{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main-project .desc-project{
+    margin-left: 10%;
+}
+
+.main-project .img-project{
+   padding:0 10% ;
+}
+
