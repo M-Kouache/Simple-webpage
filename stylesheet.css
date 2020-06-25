@@ -52,6 +52,7 @@ body{
     text-decoration: none;
     font-size: 50px;
     color: #49dcfb;
+    border: solid black;
 }
 
 #more a:hover{
@@ -63,6 +64,7 @@ body{
     justify-content: center;
     margin-top: 10%;
     font-size: 50px;
+    
 }
 
 #h1{
@@ -70,11 +72,6 @@ body{
     font-size: 40px;
 }
 
-.split{
-    height: 20vh;
-    margin: 10% 0;
-    background:linear-gradient(to right,#d7d2cc,#304352) ;
-}
 
 
 .main-about{
@@ -82,7 +79,8 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 15% 0;
-    height: 60vh;
+    height: 90vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     background: linear-gradient(to right,#355C7D,#6C5B7B,#C06C84) ;
 }
 
@@ -96,14 +94,13 @@ body{
     font-size: 20px;
     border: none;
     border-radius: 25px;
-    background:linear-gradient(to right,#C06C84,#6C5B7B) ;
+    background:linear-gradient(to right,#757F9A,#D7DDE8) ;
     margin-left: 15px;
-    width: 200px;
-    height: 50px;
+    padding: 16px 32px;
 }
 
 #btn:hover{
-    background:linear-gradient(to right,#DECBA4,#3E5151) ;
+    background:linear-gradient(to right,#bdc3c7,#6b6b83,#bdc3c7) ;
 }
 
 a{
@@ -112,17 +109,19 @@ a{
 }
 
 .main-about .bio{
+    margin-bottom: 10%;
     margin-left: 10%;
 }
 
 .main-about .image{
-    padding: 10%;
+    padding: 0 10% ;
 }
 
 .main-project{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10%;
 
 }
 
@@ -133,4 +132,43 @@ a{
 .main-project .img-project{
    padding:0 10% ;
 }
+
+
+.main-contact-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    clip-path: polygon(0 0, 100% 35%, 100% 100%, 0% 100%);
+    background: linear-gradient(to left,#355C7D,#6C5B7B,#C06C84) ;
+  
+}
+
+.main-contact-me h1 {
+    font-size: 60px;
+    margin-bottom: 30%;
+
+} 
+
+.main-contact-me .form-contact{
+    
+    margin-left: 42.5%;
+    
+}
+
+.subscribe{
+    background: red;
+}
+
+.main-footer {
+    display: flex;
+    background: #343a40;
+    
+}
+
+.footer-box{
+    height: 40vh;
+    
+}
+
 
