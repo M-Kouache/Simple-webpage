@@ -4,6 +4,9 @@
     box-sizing: border-box;
 } */
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     margin: 0 auto;
@@ -52,7 +55,6 @@ body{
     text-decoration: none;
     font-size: 50px;
     color: #49dcfb;
-  
 }
 
 #more a:hover{
@@ -160,15 +162,20 @@ a{
     background: red;
 }
 
-.main-footer {
+.main-footer  {
     display: flex;
     background: #343a40;
     
 }
 
 .footer-box{
+    display: flex;
+    align-items: center;
+    margin-left: 41%;
     height: 40vh;
-    
+}
+.footer-box div{
+    padding: 20px;
 }
 
 
