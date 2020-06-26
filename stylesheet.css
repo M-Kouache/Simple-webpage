@@ -81,6 +81,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 15% 0;
+    padding: 5px 0;
     height: 90vh;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     background: linear-gradient(to right,#355C7D,#6C5B7B,#C06C84) ;
